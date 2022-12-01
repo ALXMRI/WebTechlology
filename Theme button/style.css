@@ -1,0 +1,24 @@
+
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+button{
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    position: absolute;
+
+}
+.light{
+    background-color: darkgray;
+    color: rgb(118, 68, 68);
+}
+.dark{
+    background-color: rgb(54, 44, 97);
+    color: rgb(172, 159, 159);
+}
