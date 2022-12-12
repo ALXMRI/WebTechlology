@@ -1,0 +1,110 @@
+body {
+    color:rgb(200, 100, 150);
+    background-color: rgb(245, 198, 233);
+    font-family:monospace;
+    font-size: 22px;
+    transition: all .3s ease;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background: rgb(216, 117, 167);
+    left: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+ul li{
+    font-family:monospace;
+    flex-basis: 25%;
+    text-align: center;
+}
+ul li a{
+    color: rgb(165, 71, 118);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    width: 100%;
+}
+
+ul li a:hover{
+    background-color: rgb(200, 100, 150);
+    
+    color: rgb(165, 71, 118);
+}
+h1 {
+    text-align: center;
+    font-family:monospace;
+}
+p {
+    font-family:monospace;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+}
+
+#name{
+    background-color:rgb(200, 100, 150);
+    color: rgb(144, 58, 101);
+}
+#email{
+    background-color:rgb(200, 100, 150);
+    color: rgb(144, 58, 101);
+}
+#message{
+    background-color:rgb(200, 100, 150);
+    color: rgb(165, 71, 118);
+}
+footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 15px
+}
+#submit{
+    background-color: rgb(200, 100, 150);
+    color:rgb(144, 58, 101);
+    font-family:monospace;
+}
+#submit:hover{
+    background-color:rgb(144, 58, 101);
+    color: rgb(200, 100, 150);
+}
+
+#reset{
+    background-color: rgb(200, 100, 150);
+    color:rgb(144, 58, 101);
+    font-family:monospace;
+}
+#reset:hover{
+    background-color:rgb(144, 58, 101);
+    color: rgb(200, 100, 150);
+}
+.btn{
+    right:auto;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 100, 150);
+    color:rgb(93, 21, 58);
+    font-family:monospace;
+}
